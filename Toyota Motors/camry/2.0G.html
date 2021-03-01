@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Toyota</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">	
+		<!-- Basic stylesheet -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/style-color.css" rel="stylesheet">
+		
+		<link rel="shortcut icon" href="./img/">
+	</head>
+
+		<div class="wrapper" id="home">
+		
+			<header>
+				<nav class="secondary-menu">
+					<div class="container">
+						<div class="sm-left">
+							<strong>Phone</strong>:&nbsp; <a href="#">0-2386-2000</a>&nbsp;&nbsp;&nbsp;&nbsp;
+							<strong>E-mail</strong>:&nbsp; <a href="#">callcenter@toyota.co.th</a>
+						</div>
+						<div class="sm-right">
+							<!-- social link -->
+							<div class="sm-social-link">
+								<a class="h-facebook" href="https://www.facebook.com/toyotamotor.th/"><i class="fa fa-facebook"></i></a>
+								<a class="h-google" href="https://www.toyota.co.th/index.php"><i class="fa fa-google-plus"></i></a>
+								<a class="h-linkedin" href="https://www.linkedin.com/company/toyota-motor-thailand-co.-ltd."><i class="fa fa-linkedin"></i></a>
+								<a class="h-twitter" href="https://twitter.com/thailandmotor?lang=en"><i class="fa fa-twitter"></i></a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</nav>
+				<!-- primary menu -->
+				<nav class="navbar navbar-fixed-top navbar-default">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<!-- logo area -->
+							<a class="navbar-brand" href="#home">
+								<!-- logo image -->
+								<img class="img-responsive" src="img/logo/logo.png" alt="" />
+							</a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#cars">Cars</a></li>
+								<li><a href="#aboutus">About Us</a></li>
+								<li><a href="#calculator">Calculator</a></li>
+								<li><a href="#contact">Contact Us</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</header>
+<div class="container-fluid" style="padding: 3%;">
+    <div class="row" style="padding-top:2%;">
+      <div class="col-md-12" style="background-image: linear-gradient(to bottom,#eeffba,#beed53); padding-top:2%;">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./image/switch-removebg-preview.png" alt="NintendoSwich image" width="300" height="300 ">
+            <h1 class="text-success" style="font-size: medium;">
+              <b style="font-size: 28px;">Nintendo Switch : Animal Crossing Edition</b>
+            </h1>
+            <p class="text-danger" style="font-size: 22px;">
+              <strong id="price">14400</strong> Baht
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              Interest rate
+            </p>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons" onchange="calculate();">
+              <label class="btn btn-primary">
+                <input type="radio" name="intrate" id="button1" autocomplete="off" value="0" checked> 0 %
+              </label>
+
+              <label class="btn btn-primary active">
+                <input type="radio" name="intrate" id="button2" autocomplete="off" value="4">
+                4 %
+              </label>
+
+              <label class="btn btn-primary">
+                <input type="radio" name="intrate" id="button3" autocomplete="off" value="8">
+                8 %
+              </label>
+            </div>
+            <p>
+              <br>
+              Downpayment
+            </p>
+            <p style="text-align: left; font-size: 18px;" class="text-success">
+              <strong>1,440 Baht or </strong> <strong id="downvalue"> 10 </strong> %
+            </p>
+            <p>
+              Payment Period
+            </p>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons" onchange="calculate();">
+              <label class="btn btn-primary">
+                <input type="radio" name="period" id="button1" autocomplete="off" value="6" checked> 6 Months
+              </label>
+
+              <label class="btn btn-primary active">
+                <input type="radio" name="period" id="button2" autocomplete="off" value="12">
+                12 Months
+              </label>
+
+              <label class="btn btn-primary">
+                <input type="radio" name="period" id="button3" autocomplete="off" value="18">
+                18 Months
+              </label>
+
+              <label class="btn btn-primary">
+                <input type="radio" name="period" id="button4" autocomplete="off" value="24">
+                24 Months
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div class="row" style="padding-top:2%;">
+      <div class="col-md-12" style="margin-top: 2%;">
+        <div style="text-align: center;">
+          <p style="font-size: 32px;">
+            !!!<b class="text-danger">Monthly Payment</b>!!!<br><br>
+          </p>
+          <div id="payment" style="font-size: 28px;"></div>
+        </div>
+        <p style="text-align: center; font-size: 25px;">
+          <br><br> Baht Per Month ( 10 % DownPayment ) 
+        </p>
+      </div>
+    </div>
+  </div>

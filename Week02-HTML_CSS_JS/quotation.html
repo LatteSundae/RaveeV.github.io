@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Sample Quotation</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Quantity</th>
+                <th>Description</th>
+                <th>Unit Price</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="data r">1.5</td>
+                <td class="data">Stock Item Example 0001</td>
+                <td class="data r">1000</td>
+                <td class="data r">1500</td>
+            </tr>
+            <tr>
+                <td class="data r">1</td>
+                <td class="data">Stock Item Example 0002</td>
+                <td class="data r">2000</td>
+                <td class="data r">2000</td>
+            </tr>            
+            <tr>
+                <td class="data r">1</td>
+                <td class="data ">Service Charge Invoicing Item 001</td>
+                <td class="data r">100</td>
+                <td class="data r">100</td>
+            </tr>            
+            <tr>
+                <td class="data r">1</td>
+                <td class="data ">
+                    Service Charge Invoicing Item 002<br/>
+                    Additional line 1 for this item<br/>
+                    Additional line 2 for this item
+                </td>
+                <td class="data r">200</td>
+                <td class="data r">200</td>
+            </tr>
+            <tr id="sub-total">
+                <td  class="data r" colspan=3>Subtotal</td>
+                <td class="data r">4300</td>
+            </tr>            
+            <tr>
+                <td  class="data r" colspan=3>Sales Tax</td>
+                <td class="data r">430</td>
+            </tr>            
+            <tr>
+                <td  class="data r" colspan=3>Shipping &amp; Handling</td>
+                <td class="data r">0</td>
+            </tr>            
+            <tr id="total-due">
+                <td  class="data r" colspan=3>Total Due</td>
+                <td class="data r">4730</td>
+            </tr>                        
+        </tbody>
+    </table>
+
+    <span id="id1"></span>
+    <button onClick="increase()">Click Me!</button>
+    <script>
+        var x = 0;
+        let s1 = document.getElementById("id1");
+        s1.innerHTML = "Hello World"
+        function increase() {
+            x++;
+            s1.innerHTML = ""+x;
+        }
+        </script>
+
+</body>
+</html>

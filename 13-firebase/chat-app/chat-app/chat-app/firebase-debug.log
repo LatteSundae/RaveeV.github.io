@@ -1,0 +1,94 @@
+[debug] [2021-02-22T02:44:20.673Z] ----------------------------------------------------------------------
+[debug] [2021-02-22T02:44:20.675Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-22T02:44:20.675Z] CLI Version:   9.4.0
+[debug] [2021-02-22T02:44:20.675Z] Platform:      win32
+[debug] [2021-02-22T02:44:20.675Z] Node Version:  v15.8.0
+[debug] [2021-02-22T02:44:20.676Z] Time:          Mon Feb 22 2021 09:44:20 GMT+0700 (Indochina Time)
+[debug] [2021-02-22T02:44:20.676Z] ----------------------------------------------------------------------
+[debug] [2021-02-22T02:44:20.677Z] 
+[debug] [2021-02-22T02:44:20.682Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-22T02:44:20.683Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Study Material\auvms-wad\13-firebase\chat-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using auvms-chat-room. 
+[debug] [2021-02-22T02:44:29.451Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/auvms-chat-room [none]
+[debug] [2021-02-22T02:44:29.838Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/auvms-chat-room 403
+[debug] [2021-02-22T02:44:29.838Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/auvms-chat-room {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-02-22T02:44:29.838Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-02-22T02:44:29.959Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at async Client.request (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:289:21)
+    at async Object.doSetup [as project] (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project auvms-chat-room. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-02-22T02:46:57.426Z] ----------------------------------------------------------------------
+[debug] [2021-02-22T02:46:57.427Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-22T02:46:57.428Z] CLI Version:   9.4.0
+[debug] [2021-02-22T02:46:57.428Z] Platform:      win32
+[debug] [2021-02-22T02:46:57.428Z] Node Version:  v15.8.0
+[debug] [2021-02-22T02:46:57.429Z] Time:          Mon Feb 22 2021 09:46:57 GMT+0700 (Indochina Time)
+[debug] [2021-02-22T02:46:57.429Z] ----------------------------------------------------------------------
+[debug] [2021-02-22T02:46:57.429Z] 
+[debug] [2021-02-22T02:46:57.434Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-22T02:46:57.435Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Study Material\auvms-wad\13-firebase\chat-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using auvms-chat-room. 
+[debug] [2021-02-22T02:47:02.340Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/auvms-chat-room [none]
+[debug] [2021-02-22T02:47:02.751Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/auvms-chat-room 403
+[debug] [2021-02-22T02:47:02.751Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/auvms-chat-room {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-02-22T02:47:02.751Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-02-22T02:47:02.896Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at async Client.request (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:289:21)
+    at async Object.doSetup [as project] (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\SunSun\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project auvms-chat-room. Please make sure the project exists and your account has permission to access it.
