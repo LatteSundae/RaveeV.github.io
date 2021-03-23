@@ -6,10 +6,6 @@ ImThong is a website which allows customer to orders their food using the websit
 
 The name of the project is **ImThong** which mean full stomach in Thai language. According to my perspective, I want whoever come accross this project and read the name of the project. To feel that without seeing anything they directly know that it is related to food and this could help to feed their stomach to full.
 
-## Logo
-
-![ImThong Logo](https://pasteboard.co/JTXeACI.png "ImThong Logo")
-
 ## Technology Usage
 * HTML
 * CSS
