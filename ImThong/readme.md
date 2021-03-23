@@ -8,7 +8,7 @@ The name of the project is **ImThong** which mean full stomach in Thai language.
 
 ## Logo
 
-![ImThong Logo](/img/icon/logo.png "ImThong Logo")
+![ImThong Logo](https://pasteboard.co/JTXeACI.png "ImThong Logo")
 
 ## Technology Usage
 * HTML
