@@ -1,9 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container,
-   Navbar, Nav, NavDropdown,
- } from 'react-bootstrap';
 import {
-  BrowserRouter as Router,
+  Container,
+  Navbar, Nav, NavDropdown,
+} from 'react-bootstrap';
+import {
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -19,7 +20,11 @@ function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/journal">Journal</Nav.Link>
+            <Nav.Link>
+              <Link to="/journal">
+                Journal
+              </Link>
+            </Nav.Link>
             <Nav.Link href="/category">Category</Nav.Link>
             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
