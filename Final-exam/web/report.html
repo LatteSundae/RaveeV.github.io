@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="../css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <link rel="icon" href="../img/logo.png">
+        <title>Car Park</title>
+</head>
+<body>
+
+<!----------------
+     NAV BAR
+----------------->
+<nav>
+    <ul>
+        <li><a href="request.html">Request</a></li>
+        <li><a href="report.html">Report</a></li>
+    </ul>
+</nav>
+    <div class="report">
+        <div class="heading name">Name</div>
+        <div class="heading phone">Phone no.</div>
+        <div class="heading arrive">Arrival Time</div>
+        <div class="heading depart">Departure Time</div>
+        <div class="heading reason">Reason</div>
+        <div class="heading timestamp">CreatedAt</div>
+        <div class="heading remark">Remark</div>
+        <div class="report-detail"></div>
+    </div>
+
+
+<script src="../js/report.js"></script>
+<script src="../js/firebase.js"></script>
+
+</body>
+</html>

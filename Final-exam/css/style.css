@@ -1,0 +1,208 @@
+body {
+    background :linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg.jpg);
+    background-size : cover;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 50px 1fr 50px;
+}
+/***************
+   CONTAINER
+****************/
+
+.container {
+    opacity: 85%;
+    grid-column: 2;
+    grid-row: 2;
+    border: solid 2px #e4bad4;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #aa6a91;
+    box-shadow: 0px 4px 9px 6px #b1789b;
+}
+
+.logo {
+    color: transparent;
+    font-weight: 100;
+    background: transparent;
+    box-shadow: inset 1px 1px 5px 2px #e4bad4;
+    font-size: 3.6rem;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    background-color: white;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,360px));
+    grid-template-rows: repeat(autofit,minmax(40px,1fr));
+    justify-content: center;
+}
+
+form > input, form > select {
+    grid-column: 1;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 2px 2px 2px 1px #e4bad4;
+    font-size: 1.1rem;
+    font-family: inherit;
+}
+
+/***************
+     DELETE
+****************/
+
+.delete{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.delete{
+    background-image: url(../img/del.png);
+}
+
+.added{
+    background: green;
+}
+
+
+/***************
+   REPORT PAGE
+****************/
+
+.report{
+    margin-top: 50px;
+    grid-column: 2/3;
+    grid-row: 2;
+    background: #aa6a91;
+    display: flex;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.heading{
+    background: #aa6a91;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.requestname{
+    grid-column: 1/7;
+    padding: 10px;
+    border-bottom: solid 2px #aa6a91;
+}
+
+.data{
+    background: #aa6a91;
+    margin: 38px;
+    color: white;
+}
+
+.report-detail{
+    background: #aa6a91;
+    grid-column: 1/5;
+    display: block;
+    color: white;
+}
+
+
+/***************
+  NOTIFICATION
+****************/
+
+.notifications{
+    color: white;
+    background: red;
+    text-align: center;
+    font-size: 25px;
+    display: none;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    z-index: 999;
+}
+
+/***************
+    NAR BAR
+****************/
+nav {
+	background-color: #aa6a91;
+    opacity: 80%;
+	border-radius: 5px;
+	display: block;
+	overflow: hidden;
+	width: 100vw;
+    position: fixed;
+    z-index: 2;
+}
+
+nav img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+nav ul:first-child{
+    margin: 0;
+	padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100;
+}
+
+nav ul:last-child{
+    margin-right: auto;
+}
+
+
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li a {
+	color: white;
+	display: block;
+	line-height: 56px;
+	padding: 0 24px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #b6257e;
+}
+
+
+
+/***************
+   SCREEN SIZE
+****************/
+
+@media (max-width:980px){
+    body{
+        grid-template-columns: 25% 50% 25%;
+    }
+}
+
+@media (max-width:720px){
+    body{
+        grid-template-columns: 5% 90% 5%;
+    }
+}
