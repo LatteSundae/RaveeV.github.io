@@ -16,7 +16,7 @@ Current Project status is not fully finished in my perspective. And the missing 
 
 1.Automatic Timestamp : The timestamp is not included in this project as when submit button is press, no data of timestamp is created.
 
-2.Tabular format of Report page : The report page will all request from staff are not yet in Table format.
+2.Tabular format of Report page : The report page will all request from staff are not yet in Table format but the data is still available and can be deleted with delete button
 
 
 ## Purpose of the Project
