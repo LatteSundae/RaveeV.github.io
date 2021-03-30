@@ -31,7 +31,7 @@ $(document).ready(function(){
                             <img class="image" src=${image}>
                             <div class="title">${title}</div><hr>
                             <div class="price">${parseFloat(price).toFixed(2)} Baht</div><hr>
-                            <div class="add-to-cart" data-id=${key}><img class="cart-icon" src="../img/icon/cart.png"></div>   
+                            <div class="add-to-cart" data-id=${key}><img class="cart-icon" src="./img/icon/cart.png"></div>   
                             </div>
                             </div>`;
             }
@@ -42,7 +42,7 @@ $(document).ready(function(){
                             <img class="image" src=${image}>
                             <div class="title">${title}</div><hr>
                             <div class="price">${parseFloat(price).toFixed(2)} Baht</div><hr>
-                            <div class="add-to-cart" data-id=${key}><img class="cart-icon" src="../img/icon/cart.png"></div>   
+                            <div class="add-to-cart" data-id=${key}><img class="cart-icon" src="./img/icon/cart.png"></div>   
                             </div>
                             </div>`;
                         }
@@ -53,7 +53,7 @@ $(document).ready(function(){
                             <img class="image" src=${image}>
                             <div class="title">${title}</div><hr>
                             <div class="price">${parseFloat(price).toFixed(2)} Baht</div><hr>
-                            <div class="add-to-cart" data-id=${key}><img class="cart-icon" src="../img/icon/cart.png"></div>  
+                            <div class="add-to-cart" data-id=${key}><img class="cart-icon" src="./img/icon/cart.png"></div>  
                             </div>
                             </div>`;
             }
@@ -64,7 +64,7 @@ $(document).ready(function(){
                             <img class="image" src=${image}>
                             <div class="title">${title}</div><hr>
                             <div class="price">${parseFloat(price).toFixed(2)} Baht</div><hr>
-                            <div class="add-to-cart" data-id=${key}><img class="cart-icon" src="../img/icon/cart.png"></div>   
+                            <div class="add-to-cart" data-id=${key}><img class="cart-icon" src="./img/icon/cart.png"></div>   
                             </div>
                             </div>`;
             }

@@ -20,7 +20,7 @@ Current Project status is not fully finished in my perspective. And the missing 
 
 1.Table number : The table number now is randomize and only it is visible in administrator part. Instead Table number should be input by the  customer.
 
-2.Beautiful Index page : Now index page have only carousel which actually should have more component like about us or contact information.
+2.Beautiful Index page : Now index page have only text and paragraph of restaurant detail. For more beautiful should include carousel, promotion, and etc.
 
 3.Administrator Login : Login should be available for administrator side.
 

@@ -67,6 +67,18 @@ body{
     color: #4a2511;
 }
 
+.menu p{
+    font-size: 16px;
+    padding: 8px;
+    color: #4a2511;
+}
+
+.menu h2{
+    font-size: 40px;
+    padding: 8px;
+    color: #4a2511;
+}
+
 .menu > div.item{
     display: grid;
     padding: 8px;
